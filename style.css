@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: black;
+}
+
+@keyframes animacao{
+    from{
+        background: blue;
+        border-radius: 0%;
+    }
+    to{
+        background: #10dfee;
+        border-radius: 500%;
+    }
+}
+
+
+
+#centro{
+   
+    width: 800px;
+    height: 800px;
+    margin: 50px auto;
+    background: blue;
+    animation-name: animacao;
+    animation-duration: 3s;
+    animation-delay: 3s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+
+}
+
+.center{
+    position: relative;
+    top: 46%;
+    left: 39%;
+    width: 150px;
+    text-align: center;
+    background: rgb(0, 0, 0);
+    font-size: 3em;
+    border-radius: 20px;
+    color: aliceblue;
+    
+}
+
+
+
+
